@@ -1,8 +1,9 @@
 # Priv8 Shell by CoupDeGrace
 
 [![PHP](https://img.shields.io/badge/PHP-%3E%3D5.6-blue)](https://php.net)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Version](https://img.shields.io/badge/Version-1.0-red)]()
+
+> **Keywords:** php web shell, wso shell, priv8 shell, c99 shell, r99 shell, php backdoor, wordpress shell, joomla shell, drupal shell, file manager shell, php exploit, penetration testing, red team, av safe shell, obfuscated php shell, encrypted shell, php file upload, command execution shell, mysql shell, reverse shell, php reverse shell, web shell github, php web shell 2026, coupdegrace shell, webshell php, php shell login, shell priv8 php, php shell obfuscated, antimalware bypass shell, fud shell php
 
 **Advanced PHP Web Shell — AV-Safe | Obfuscated | Multi-Feature**
 
