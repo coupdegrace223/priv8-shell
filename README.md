@@ -53,7 +53,3 @@ Password: haxor2010
 ### Disclaimer
 
 This tool is for educational and authorized security testing only. The author is not responsible for any misuse or damage caused by this software.
-
-### Author
-
-**CoupDeGrace** — 2026
