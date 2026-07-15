@@ -25,7 +25,6 @@ Password: haxor2010
 | **Tools** | Base64 Encode/Decode, Hex Encode/Decode |
 | **Server Info** | System info, PHP version, SAPI, User, Server software, Limits, open_basedir, disable_functions, loaded extensions, Disk/Memory usage with progress bars |
 | **Security** | SelfDestruct, File hash (MD5/SHA1), Recursive search |
-| **Telegram** | Auto-notification on shell access + file upload (private) |
 
 ### Design
 - Dark navy professional theme
@@ -44,31 +43,12 @@ Password: haxor2010
 - **Fake execution traps** (`if(0){...}`) — misleads deobfuscators
 - **Dynamic function verification** — checks eval() is actually executing, not being dumped
 
-### Files
-| File | Size | Description |
-|------|------|-------------|
-| `cdg.php` | 24KB | **Encrypted shell** — ready to deploy |
-| `cdg-source.php` | 22KB | Original source (for reference) |
-| `WSO-Shell.php` | 212KB | Original WSO Shell (R00t-Shell.com) |
-
 ### Usage
 
 1. Upload `cdg.php` to any writable directory
 2. Access via browser: `https://target.com/path/cdg.php`
 3. Login with credentials above
 4. Use tab navigation for all features
-
-### Telegram Logging
-
-Every shell access sends notification with:
-- Shell URL
-- IP address
-- Server hostname
-- Timestamp
-
-Every file upload sends notification with:
-- Filename, size, path
-- Shell URL
 
 ### Disclaimer
 
