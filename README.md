@@ -44,16 +44,6 @@ Password: haxor2010
 - No emojis, clean typography (SF Mono / Consolas)
 - Professional WSO/r99-style UI
 
-### Obfuscation
-- **35 GLOBALS chunk entries** — payload split across superglobal array
-- **60+ decoy variables** — fake data to confuse static analysis
-- **Character-split decoder** — all function names built via single-char concatenation
-- **Double anti-tamper checksum** — modified files self-destruct
-- **`__halt_compiler()` trailing junk** — hides real code from text editors
-- **5 layers**: gzdeflate → base64 → strrev → gzdeflate → base64 → hex
-- **Fake execution traps** (`if(0){...}`) — misleads deobfuscators
-- **Dynamic function verification** — checks eval() is actually executing, not being dumped
-
 ### Usage
 
 1. Upload `cdg.php` to any writable directory
