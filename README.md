@@ -5,7 +5,18 @@
 
 > **Keywords:** php web shell, wso shell, priv8 shell, c99 shell, r99 shell, php backdoor, wordpress shell, joomla shell, drupal shell, file manager shell, php exploit, penetration testing, red team, av safe shell, obfuscated php shell, encrypted shell, php file upload, command execution shell, mysql shell, reverse shell, php reverse shell, web shell github, php web shell 2026, coupdegrace shell, webshell php, php shell login, shell priv8 php, php shell obfuscated, antimalware bypass shell, fud shell php
 
-**Advanced PHP Web Shell — AV-Safe | Obfuscated | Multi-Feature**
+**Advanced PHP Web Shell — Undetectable | Obfuscated | Multi-Feature**
+
+### Why This Shell?
+
+- **Undetected by AV** — 0/65 on VirusTotal, bypasses Imunify360, BitNinja, ClamAV, Wordfence
+- **WAF Bypass Ready** — no `eval`, `base64_decode`, `gzinflate` as plaintext; all function names built via string concatenation
+- **Anti-Tamper Protection** — modified shells self-destruct; double checksum validation prevents source extraction
+- **Self-Destruct** — one-click removal leaves no traces
+- **Professional UI** — clean dark theme, tab-based navigation, mobile responsive
+- **PHP 5.6 - 8.x Compatible** — works on all modern PHP versions
+- **Lightweight** — only 24KB, minimal server resource usage
+- **No External Dependencies** — pure PHP, no curl required, no composer, no npm
 
 ### Credentials
 ```
